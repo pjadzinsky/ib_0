@@ -51,6 +51,7 @@ class TestApp(EWrapper, EClient):
         print(self.bars.head())
         print(self.bars.shape)
 
+
 def main():
     app = TestApp()
     # cause API running on same computer as TWS, host is localhost = 127.0.0.1
